@@ -123,12 +123,12 @@ namespace DemoTesteUnitario.Domain
 
         public override string ToString()
         {
-            return base.ToString();
+            return ToString("G", System.Globalization.CultureInfo.CurrentCulture);
         }
 
         public string ToString(string format, IFormatProvider formatProvider)
         {
-            return metros.ToString(format, formatProvider) + "m";
+            return metros.ToString(format, formatProvider) + " m";
         }
     }
 }
