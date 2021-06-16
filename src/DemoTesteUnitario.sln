@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTesteUnitario.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTesteUnitario.Presentation", "DemoTesteUnitario.Presentation\DemoTesteUnitario.Presentation.csproj", "{56B41486-33B0-4E94-A0CD-0DFE14CBA2E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTesteUnitario.Test", "DemoTesteUnitario.Test\DemoTesteUnitario.Test.csproj", "{4C744537-3F51-43D9-9338-E85C20C24D1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{56B41486-33B0-4E94-A0CD-0DFE14CBA2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56B41486-33B0-4E94-A0CD-0DFE14CBA2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56B41486-33B0-4E94-A0CD-0DFE14CBA2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C744537-3F51-43D9-9338-E85C20C24D1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C744537-3F51-43D9-9338-E85C20C24D1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C744537-3F51-43D9-9338-E85C20C24D1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C744537-3F51-43D9-9338-E85C20C24D1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,6 +16,9 @@ namespace DemoTesteUnitario.Domain
 
         public static Distancia EmMetros(double metros)
         {
+            if (metros < 0)
+                throw new ArgumentException("Valor precisa ser > 0!");
+            
             return new Distancia(metros);
         }
 
